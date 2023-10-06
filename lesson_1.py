@@ -49,7 +49,7 @@ class Airplane:
             self.odometer += distance
             print(f"Самолет прелетел {distance} км ")
         else:
-            print("Сначалв выполните взлет")
+            print("Сначала выполните взлет")
 
     def land(self):
         self.is_flying = False
