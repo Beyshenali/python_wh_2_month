@@ -17,3 +17,7 @@
 
 # apple = Fruit("Jannat", "red", 0.25)
 # apple.info()
+
+
+
+
