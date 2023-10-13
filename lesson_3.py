@@ -1,25 +1,25 @@
-# class SmartPhone():
-#     def __init__(self, sim_cards, battery):
-#         self.__sim_cards = sim_cards
-#         self._battery = battery
+class SmartPhone():
+    def __init__(self, sim_cards, battery):
+        self.__sim_cards = sim_cards
+        self._battery = battery
     
-#     @property
-#     def sim_cards(self):
-#         return self.__sim_cards
+    @property
+    def sim_cards(self):
+        return self.__sim_cards
 
-#     @sim_cards.setter
-#     def sim_cards(self, new_sim_cards):
-#         self.__sim_cards == new_sim_cards
+    @sim_cards.setter
+    def sim_cards(self, new_sim_cards):
+        self.__sim_cards == new_sim_cards
 
-#     def __info_smartphone(self):
-#         print(f"Ваши сим карты {self.sim_cards} , ваш объём батерии {self._battery}")
+    def __info_smartphone(self):
+        print(f"Ваши сим карты {self.sim_cards} , ваш объём батерии {self._battery}")
 
-#     @property
-#     def info_smartphone(self):
-#         return self.__info_smartphone
+    @property
+    def info_smartphone(self):
+        return self.__info_smartphone
 
-# mi = SmartPhone(["MegaCom", "O!"], 3000)
-# mi.info_smartphone()
+mi = SmartPhone(["MegaCom", "O!"], 3000)
+mi.info_smartphone()
 
 # Множественное наследование
 class Car:
